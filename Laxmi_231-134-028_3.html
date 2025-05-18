@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-gray-100">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hard-coded Table</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-full bg-gray-100">
+  <div class="min-h-screen flex items-center justify-center px-4">
+    <div class="max-w-5xl w-full bg-white rounded-lg shadow-md p-6">
+      <h1 class="text-3xl font-semibold mb-6 text-center">User Information</h1>
+      <div class="overflow-x-auto">
+        <table class="min-w-full border-collapse border border-gray-300">
+          <thead>
+            <tr class="bg-gray-200">
+              <th class="border border-gray-300 px-6 py-3 text-left">ID</th>
+              <th class="border border-gray-300 px-6 py-3 text-left">Name</th>
+              <th class="border border-gray-300 px-6 py-3 text-left">Email</th>
+              <th class="border border-gray-300 px-6 py-3 text-left">Role</th>
+              <th class="border border-gray-300 px-6 py-3 text-left">Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="hover:bg-gray-100">
+              <td class="border border-gray-300 px-6 py-3">1</td>
+              <td class="border border-gray-300 px-6 py-3">Laxmi Rani Shaha</td>
+              <td class="border border-gray-300 px-6 py-3">laxmi@example.com</td>
+              <td class="border border-gray-300 px-6 py-3">Admin</td>
+              <td class="border border-gray-300 px-6 py-3 text-green-600 font-semibold">Active</td>
+            </tr>
+            <tr class="hover:bg-gray-100">
+              <td class="border border-gray-300 px-6 py-3">2</td>
+              <td class="border border-gray-300 px-6 py-3">Adrija Paul Troyee</td>
+              <td class="border border-gray-300 px-6 py-3">adrija@example.com</td>
+              <td class="border border-gray-300 px-6 py-3">Editor</td>
+              <td class="border border-gray-300 px-6 py-3 text-yellow-600 font-semibold">Pending</td>
+            </tr>
+            <tr class="hover:bg-gray-100">
+              <td class="border border-gray-300 px-6 py-3">3</td>
+              <td class="border border-gray-300 px-6 py-3">Adishree Shaha</td>
+              <td class="border border-gray-300 px-6 py-3">adishree@example.com</td>
+              <td class="border border-gray-300 px-6 py-3">Viewer</td>
+              <td class="border border-gray-300 px-6 py-3 text-red-600 font-semibold">Inactive</td>
+            </tr>
+            <tr class="hover:bg-gray-100">
+              <td class="border border-gray-300 px-6 py-3">4</td>
+              <td class="border border-gray-300 px-6 py-3">Minmoyee Shaha</td>
+              <td class="border border-gray-300 px-6 py-3">minmoyee@example.com</td>
+              <td class="border border-gray-300 px-6 py-3">Admin</td>
+              <td class="border border-gray-300 px-6 py-3 text-green-600 font-semibold">Active</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
